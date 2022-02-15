@@ -1,7 +1,9 @@
 name: Release deploy to neutroni
 
+
 on:
   release:
+    types: [published] 
 
 jobs:
   deploy:
@@ -22,5 +24,6 @@ jobs:
           private-key: ${{ secrets.PRIVATE_KEY }}
           known-hosts: ${{ secrets.KNOWN_HOSTS }}
           dep: deploy
+   
 
 

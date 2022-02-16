@@ -130,6 +130,11 @@
       "name"  => "Vadelmat",
       "color" => "#faa7b9",
       "image" => "backgrounds/vadelmat.jpg"
+    ),
+    "puut" => array(
+      "name"  => "Puut",
+      "color" => "#6B8E23",
+      "image" => "backgrounds/puut.jpg"
     )
   );
 
